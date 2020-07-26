@@ -1,6 +1,8 @@
 import React, { useEffect, Fragment } from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
 import SearchBar from './components/layout/SearchBar';
+import AddBtn from './components/layout/AddBtn';
+import AddLogModel from './components/logs/AddLogModel'
 
 import Logs from './components/logs/Logs';
 import M from 'materialize-css/dist/js/materialize';
@@ -15,6 +17,8 @@ const App = () => {
     <Fragment>
       <SearchBar />
       <div className='container'>
+        <AddBtn />
+        <AddLogModel />
         <Logs />
       </div>
     </Fragment>
