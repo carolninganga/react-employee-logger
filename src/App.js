@@ -4,6 +4,7 @@ import SearchBar from './components/layout/SearchBar';
 import AddBtn from './components/layout/AddBtn';
 import AddLogModel from './components/logs/AddLogModal';
 import EditLogModal from './components/logs/EditlogModal';
+import AddTechModel from './components/techs/AddTechModal';
 
 import Logs from './components/logs/Logs';
 import M from 'materialize-css/dist/js/materialize';
@@ -21,6 +22,7 @@ const App = () => {
         <AddBtn />
         <AddLogModel />
         <EditLogModal />
+        <AddTechModel />
         <Logs />
       </div>
     </Fragment>
