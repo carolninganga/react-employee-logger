@@ -10,7 +10,11 @@ const AddLogModel = () => {
         if (message === '' || tech === ''){
             M.toast({ html: 'Please enter a message and tech' });
         } else {
-            console.log(message, tech, attention)
+            console.log(message, tech, attention);
+            //Clear Fields 
+            setMessage('');
+            setTech('');
+            setAttention(false);
         }
    
     }
